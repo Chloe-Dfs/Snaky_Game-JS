@@ -1,0 +1,64 @@
+html {
+    background-image: url("./img/herbeBG.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 3rem;
+    padding: 1rem 0 3rem 0;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: 10px solid darkgreen;
+}
+
+.top h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    color: darkgreen;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+canvas {
+    background-image: url("./img/Grass.png");
+    border-radius: 20px;
+}
+
+#middleRight {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    justify-content: center;
+
+    .perdurouge {
+        color: red;
+
+    }    
+}
+
+#middleRight button {
+    background-color: transparent;
+    font-family: 'Ramabhadra', sans-serif;
+    border: 5px solid darkgreen;
+    color: darkgreen;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#middleRight button:hover {
+    background-color: darkgreen;
+    color: white;
+    border: 5px solid white;
+}
